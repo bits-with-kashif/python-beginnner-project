@@ -1,0 +1,10 @@
+from datetime import datetime
+time = datetime.now().hour
+if time<12:
+    print("Good morning")
+elif time<16:
+    print("Good afternoon")
+elif time<20:
+    print("Good evening")
+else:
+    print("Good night")
